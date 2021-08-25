@@ -21,8 +21,7 @@ async def start(client, message):
                         InlineKeyboardButton("ABOUT", callback_data="about_data"),
                     ],
                     [
-                        InlineKeyboardButton(
-                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")
+                        
                     ]
                 ]
             ),
@@ -44,8 +43,7 @@ async def help(client, message):
                         InlineKeyboardButton("ABOUT", callback_data="about_data"),
                     ],
                     [
-                        InlineKeyboardButton(
-                            "⭕️ SUPPORT ⭕️", url="https://t.me/TroJanzSupport")
+                       
                     ]
                 ]
             ),
